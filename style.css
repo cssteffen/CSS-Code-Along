@@ -1,0 +1,53 @@
+* {
+	text-align: right;
+}
+body {
+	background-image: url(mountains.jpg);
+	background-size: cover;
+	font-family: 'Poiret One', cursive;
+}
+
+h2, p {
+	color: black;
+	text-align: center;
+	border: 5px solid rgba(255, 255, 255, .25);
+	cursor: pointer;
+}
+
+p {
+	color: black;
+	line-height: 20px;
+	font-weight: 300;
+	font-size: 90%;
+	font-family: sans-serif;
+}
+
+img {
+	float: right;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext {
+	border: 5px solid black	
+}
+
+.active {
+	color: brown;
+}
+
+#div1 {
+	background: rgba(255, 255, 255, 0.25);
+}
+
+#div2 {
+	background: rgba(0,0,0, .25);
+}
